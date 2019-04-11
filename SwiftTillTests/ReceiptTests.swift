@@ -21,7 +21,6 @@ class SwiftTillTests: XCTestCase {
 
     func testItemsCanBeAddedToAReceipt() {
         receipt.addItem(itemName: "Cafe Latte")
-        print("items: \(receipt.listItems())")
         XCTAssertTrue(receipt.listItems() == ["Cafe Latte":1])
     }
     
@@ -34,6 +33,12 @@ class SwiftTillTests: XCTestCase {
     func testParsesAndSetsItsPricesFromTheSuppliedJSONFile() {
         XCTAssertTrue(receipt.getPriceFor(itemName: "Cafe Latte") == 4.75)
         XCTAssertTrue(receipt.getPriceFor(itemName: "Cappucino") == 3.85)
+    }
+    
+    func testCanReturnTotalAmountDueIncludingTax() {
+        receipt.addItem(itemName: "Cappucino")
+        receipt.addItem(itemName: "Cafe Latte")
+        XCTAssertTrue(receipt.calculateTotal() == 10.32)
     }
 
 }

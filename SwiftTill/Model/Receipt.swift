@@ -14,6 +14,7 @@ class Receipt {
     private var items: [String:Int] = [:]
     private var priceListFilename = "hipstercoffee"
     private var priceList: [String:Double] = [:]
+    private var taxRate: Double = 0.2
     
     init() {
         self.setPrices()
@@ -52,5 +53,13 @@ class Receipt {
             return self.priceList.filter( { $0.key == itemName })[0].value
         }
         return 0
+    }
+    
+    func calculateTotal() -> Double {
+        var total: Double = 0
+        for item in items {
+            total += self.getPriceFor(itemName: item.key)
+        }
+        return total + (total * self.taxRate)
     }
 }
