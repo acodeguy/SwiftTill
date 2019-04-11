@@ -10,9 +10,11 @@ import XCTest
 @testable import SwiftTill
 
 class SwiftTillTests: XCTestCase {
+    
+    var receipt = Receipt()
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        receipt = Receipt()
     }
 
     override func tearDown() {
@@ -20,9 +22,14 @@ class SwiftTillTests: XCTestCase {
     }
 
     func testItemsCanBeAddedToAReceipt() {
-        let receipt = Receipt()
         XCTAssertFalse(receipt.hasItems())
         receipt.addItem(itemName: "Cafe Latte")
+        XCTAssertTrue(receipt.hasItems())
+    }
+    
+    func testMulitpleQuantitiesOfAnItemCanBeAddedAtOnce() {
+        XCTAssertFalse(receipt.hasItems())
+        receipt.addItem(itemName: "Cappucino", quantity: 3)
         XCTAssertTrue(receipt.hasItems())
     }
 

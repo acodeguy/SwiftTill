@@ -16,7 +16,7 @@ class Receipt {
         self.items = []
     }
     
-    func addItem(itemName: String) {
+    func addItem(itemName: String, quantity:Int = 0) {
         self.items.append(itemName)
     }
     
