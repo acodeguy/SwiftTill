@@ -10,17 +10,13 @@ import Foundation
 
 class Receipt {
     
-    private var items: [String]
-    
-    init() {
-        self.items = []
+    private var items: [String:Int] = [:]
+      
+    func addItem(itemName: String, quantity: Int = 1) {
+        self.items[itemName] = self.items[itemName] ?? 0 + quantity
     }
     
-    func addItem(itemName: String, quantity:Int = 0) {
-        self.items.append(itemName)
-    }
-    
-    func hasItems() -> Bool {
-        return !self.items.isEmpty
+    func listItems() -> [String:Int] {
+        return self.items
     }
 }

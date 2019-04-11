@@ -14,6 +14,11 @@ I want to be able to add multiples of an item in one go
 ```
 ```
 As a user
+So that I can add items quickly to a bill
+I want the item's price to be added automatically
+```
+```
+As a user
 So that I can charge customers
 I want to be able to generate receipts
 ```
