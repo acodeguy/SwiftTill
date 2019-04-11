@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TillViewController.swift
 //  SwiftTill
 //
 //  Created by Andrew on 11/04/2019.
@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TillViewController: UIViewController {
+    
+//    private var receipt = Receipt()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        receipt.addItem(itemName: "Cafe Latte", quantity: 2)
+        
     }
 
 

@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3C59DE4E37D786E5587D5DA9 /* Pods_SwiftTillUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF881A845935D9A8F0412E32 /* Pods_SwiftTillUITests.framework */; };
+		491A384A225F73A5003402FA /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 491A3849225F73A5003402FA /* readme.md */; };
+		49BA5404225F69F300DC26E4 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5403225F69F300DC26E4 /* Receipt.swift */; };
 		49E232E6225F5FB9008C7760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E232E5225F5FB9008C7760 /* AppDelegate.swift */; };
-		49E232E8225F5FB9008C7760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E232E7225F5FB9008C7760 /* ViewController.swift */; };
+		49E232E8225F5FB9008C7760 /* TillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E232E7225F5FB9008C7760 /* TillViewController.swift */; };
 		49E232EB225F5FB9008C7760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E232E9225F5FB9008C7760 /* Main.storyboard */; };
 		49E232ED225F5FBA008C7760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E232EC225F5FBA008C7760 /* Assets.xcassets */; };
 		49E232F0225F5FBA008C7760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E232EE225F5FBA008C7760 /* LaunchScreen.storyboard */; };
-		49E232FB225F5FBA008C7760 /* SwiftTillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E232FA225F5FBA008C7760 /* SwiftTillTests.swift */; };
+		49E232FB225F5FBA008C7760 /* ReceiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E232FA225F5FBA008C7760 /* ReceiptTests.swift */; };
 		49E23306225F5FBA008C7760 /* SwiftTillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E23305225F5FBA008C7760 /* SwiftTillUITests.swift */; };
 		8A93916D64426D6A67C6A8ED /* Pods_SwiftTill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E10F39F336133567A9203D /* Pods_SwiftTill.framework */; };
 		98B45DED0128642C781D574A /* Pods_SwiftTillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57926E93A458DFDC656C5D2 /* Pods_SwiftTillTests.framework */; };
+		CFCF3C05FAF582D60A12AF9C /* Pods_SwiftTillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BA5405225F6ED000DC26E4 /* Pods_SwiftTillTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +43,18 @@
 		24E10F39F336133567A9203D /* Pods_SwiftTill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B74AB00D7C44762F0FCC89 /* Pods-SwiftTillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTillTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTillTests/Pods-SwiftTillTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35FAA2501BE2BB75C4F2F1D1 /* Pods-SwiftTillUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTillUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftTillUITests/Pods-SwiftTillUITests.release.xcconfig"; sourceTree = "<group>"; };
+		491A3849225F73A5003402FA /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		49BA5403225F69F300DC26E4 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		49BA5405225F6ED000DC26E4 /* Pods_SwiftTillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftTillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E232E2225F5FB9008C7760 /* SwiftTill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E232E5225F5FB9008C7760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49E232E7225F5FB9008C7760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49E232E7225F5FB9008C7760 /* TillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TillViewController.swift; sourceTree = "<group>"; };
 		49E232EA225F5FB9008C7760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49E232EC225F5FBA008C7760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E232EF225F5FBA008C7760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E232F1225F5FBA008C7760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49E232F6225F5FBA008C7760 /* SwiftTillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49E232FA225F5FBA008C7760 /* SwiftTillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTillTests.swift; sourceTree = "<group>"; };
+		49E232FA225F5FBA008C7760 /* ReceiptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTests.swift; sourceTree = "<group>"; };
 		49E232FC225F5FBA008C7760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49E23301225F5FBA008C7760 /* SwiftTillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E23305225F5FBA008C7760 /* SwiftTillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTillUITests.swift; sourceTree = "<group>"; };
@@ -75,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B45DED0128642C781D574A /* Pods_SwiftTillTests.framework in Frameworks */,
+				CFCF3C05FAF582D60A12AF9C /* Pods_SwiftTillTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +99,7 @@
 		13EA67B2F8B1D98391D18B72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49BA5405225F6ED000DC26E4 /* Pods_SwiftTillTests.framework */,
 				24E10F39F336133567A9203D /* Pods_SwiftTill.framework */,
 				E57926E93A458DFDC656C5D2 /* Pods_SwiftTillTests.framework */,
 				CF881A845935D9A8F0412E32 /* Pods_SwiftTillUITests.framework */,
@@ -99,9 +107,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		49BA5401225F64B700DC26E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49E232E7225F5FB9008C7760 /* TillViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49BA5402225F69E400DC26E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49BA5403225F69F300DC26E4 /* Receipt.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		49E232D9225F5FB9008C7760 = {
 			isa = PBXGroup;
 			children = (
+				491A3849225F73A5003402FA /* readme.md */,
 				49E232E4225F5FB9008C7760 /* SwiftTill */,
 				49E232F9225F5FBA008C7760 /* SwiftTillTests */,
 				49E23304225F5FBA008C7760 /* SwiftTillUITests */,
@@ -124,8 +149,9 @@
 		49E232E4225F5FB9008C7760 /* SwiftTill */ = {
 			isa = PBXGroup;
 			children = (
+				49BA5402225F69E400DC26E4 /* Model */,
+				49BA5401225F64B700DC26E4 /* Controllers */,
 				49E232E5225F5FB9008C7760 /* AppDelegate.swift */,
-				49E232E7225F5FB9008C7760 /* ViewController.swift */,
 				49E232E9225F5FB9008C7760 /* Main.storyboard */,
 				49E232EC225F5FBA008C7760 /* Assets.xcassets */,
 				49E232EE225F5FBA008C7760 /* LaunchScreen.storyboard */,
@@ -137,7 +163,7 @@
 		49E232F9225F5FBA008C7760 /* SwiftTillTests */ = {
 			isa = PBXGroup;
 			children = (
-				49E232FA225F5FBA008C7760 /* SwiftTillTests.swift */,
+				49E232FA225F5FBA008C7760 /* ReceiptTests.swift */,
 				49E232FC225F5FBA008C7760 /* Info.plist */,
 			);
 			path = SwiftTillTests;
@@ -162,7 +188,6 @@
 				98E790B1FCC27D54F9CD64AB /* Pods-SwiftTillUITests.debug.xcconfig */,
 				35FAA2501BE2BB75C4F2F1D1 /* Pods-SwiftTillUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -196,6 +221,7 @@
 				49E232F2225F5FBA008C7760 /* Sources */,
 				49E232F3225F5FBA008C7760 /* Frameworks */,
 				49E232F4225F5FBA008C7760 /* Resources */,
+				AC740681978F1445AE730EA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +241,7 @@
 				49E232FD225F5FBA008C7760 /* Sources */,
 				49E232FE225F5FBA008C7760 /* Frameworks */,
 				49E232FF225F5FBA008C7760 /* Resources */,
+				2FD3072AEF500E6392F02C84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +303,7 @@
 			files = (
 				49E232F0225F5FBA008C7760 /* LaunchScreen.storyboard in Resources */,
 				49E232ED225F5FBA008C7760 /* Assets.xcassets in Resources */,
+				491A384A225F73A5003402FA /* readme.md in Resources */,
 				49E232EB225F5FB9008C7760 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +325,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2FD3072AEF500E6392F02C84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTillUITests/Pods-SwiftTillUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTillUITests/Pods-SwiftTillUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		38C054FE7161A844D2E16140 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +389,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC740681978F1445AE730EA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTillTests/Pods-SwiftTillTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTillTests/Pods-SwiftTillTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B2B44C0A8F89B62C09DCC630 /* [CP] Embed Pods Frameworks */ = {
@@ -392,7 +464,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E232E8225F5FB9008C7760 /* ViewController.swift in Sources */,
+				49BA5404225F69F300DC26E4 /* Receipt.swift in Sources */,
+				49E232E8225F5FB9008C7760 /* TillViewController.swift in Sources */,
 				49E232E6225F5FB9008C7760 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E232FB225F5FBA008C7760 /* SwiftTillTests.swift in Sources */,
+				49E232FB225F5FBA008C7760 /* ReceiptTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +651,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.acodeguy.SwiftTill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -596,7 +669,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.acodeguy.SwiftTill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

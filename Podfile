@@ -10,11 +10,13 @@ target 'SwiftTill' do
   target 'SwiftTillTests' do
     inherit! :search_paths
     # Pods for testing
+pod 'SwiftyJSON', '~> 4.0'
   end
 
   target 'SwiftTillUITests' do
     inherit! :search_paths
     # Pods for testing
+pod 'SwiftyJSON', '~> 4.0'
   end
 
 end
