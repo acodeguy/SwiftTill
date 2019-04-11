@@ -30,5 +30,10 @@ class SwiftTillTests: XCTestCase {
         print("items: \(receipt.listItems())")
         XCTAssertTrue(receipt.listItems() == ["Cappucino":3])
     }
+    
+    func testParsesAndSetsItsPricesFromTheSuppliedJSONFile() {
+        XCTAssertTrue(receipt.getPriceFor(itemName: "Cafe Latte") == 4.75)
+        XCTAssertTrue(receipt.getPriceFor(itemName: "Cappucino") == 3.85)
+    }
 
 }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3C59DE4E37D786E5587D5DA9 /* Pods_SwiftTillUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF881A845935D9A8F0412E32 /* Pods_SwiftTillUITests.framework */; };
 		491A384A225F73A5003402FA /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 491A3849225F73A5003402FA /* readme.md */; };
+		491A3850225F9D0C003402FA /* hipstercoffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 491A384F225F9D0C003402FA /* hipstercoffee.json */; };
+		491A3851225F9D24003402FA /* hipstercoffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 491A384F225F9D0C003402FA /* hipstercoffee.json */; };
 		49BA5404225F69F300DC26E4 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5403225F69F300DC26E4 /* Receipt.swift */; };
 		49E232E6225F5FB9008C7760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E232E5225F5FB9008C7760 /* AppDelegate.swift */; };
 		49E232E8225F5FB9008C7760 /* TillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E232E7225F5FB9008C7760 /* TillViewController.swift */; };
@@ -44,6 +46,7 @@
 		25B74AB00D7C44762F0FCC89 /* Pods-SwiftTillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTillTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTillTests/Pods-SwiftTillTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35FAA2501BE2BB75C4F2F1D1 /* Pods-SwiftTillUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTillUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftTillUITests/Pods-SwiftTillUITests.release.xcconfig"; sourceTree = "<group>"; };
 		491A3849225F73A5003402FA /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		491A384F225F9D0C003402FA /* hipstercoffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hipstercoffee.json; sourceTree = "<group>"; };
 		49BA5403225F69F300DC26E4 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		49BA5405225F6ED000DC26E4 /* Pods_SwiftTillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftTillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E232E2225F5FB9008C7760 /* SwiftTill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTill.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +152,7 @@
 		49E232E4225F5FB9008C7760 /* SwiftTill */ = {
 			isa = PBXGroup;
 			children = (
+				491A384F225F9D0C003402FA /* hipstercoffee.json */,
 				49BA5402225F69E400DC26E4 /* Model */,
 				49BA5401225F64B700DC26E4 /* Controllers */,
 				49E232E5225F5FB9008C7760 /* AppDelegate.swift */,
@@ -304,6 +308,7 @@
 				49E232F0225F5FBA008C7760 /* LaunchScreen.storyboard in Resources */,
 				49E232ED225F5FBA008C7760 /* Assets.xcassets in Resources */,
 				491A384A225F73A5003402FA /* readme.md in Resources */,
+				491A3850225F9D0C003402FA /* hipstercoffee.json in Resources */,
 				49E232EB225F5FB9008C7760 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491A3851225F9D24003402FA /* hipstercoffee.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
