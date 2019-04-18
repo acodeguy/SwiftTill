@@ -8,10 +8,10 @@ Create a cash register for a coffee shop that accepts a JSON file as input and s
 - Cocoapods (SwiftyJSON)
 
 ## Using the Code
-Clone this repo: ```git clone git@github.com:acodeguy/SwiftTill.git```
-Install Cocoapods: ```gem install cocoapods```
-Install necessary Pods: ```cd SwiftTill; pod install```
-Open the ```SwiftTill.xcworkspace``` workspace in Xcode
+- Clone this repo: ```git clone git@github.com:acodeguy/SwiftTill.git```
+- Install Cocoapods: ```gem install cocoapods```
+- Install necessary Pods: ```cd SwiftTill; pod install```
+- Open the ```SwiftTill.xcworkspace``` workspace in Xcode
 
 ## Testing
 Tested with XCTest
