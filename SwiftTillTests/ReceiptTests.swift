@@ -26,7 +26,6 @@ class SwiftTillTests: XCTestCase {
     
     func testMulitpleQuantitiesOfAnItemCanBeAddedAtOnce() {
         receipt.addItem(itemName: "Cappucino", quantity: 3)
-        print("items: \(receipt.listItems())")
         XCTAssertTrue(receipt.listItems() == ["Cappucino":3])
     }
     
@@ -38,7 +37,27 @@ class SwiftTillTests: XCTestCase {
     func testCanReturnTotalAmountDueIncludingTax() {
         receipt.addItem(itemName: "Cappucino")
         receipt.addItem(itemName: "Cafe Latte")
-        XCTAssertTrue(receipt.calculateTotal() == 10.32)
+        XCTAssertTrue(receipt.calculateTotal(taxInclusive: true) == 10.32)
+    }
+    
+    func testCanGenerateAReceipt() {
+        receipt.addItem(itemName: "Cappucino", quantity: 2)
+        receipt.addItem(itemName: "Cafe Latte")
+        receipt.addItem(itemName: "Affogato")
+        receipt.addItem(itemName: "Tiramisu")
+        let expectedReceiptOutput: String = "\(receipt.formatDate(date: Date()))\n"
+            + "The Coffee Connection\n"
+            + "123 Lakeside Way\n"
+            + "16503600708\n"
+            + "1x Affogato: 14.80\n"
+            + "1x Cafe Latte: 4.75\n"
+            + "2x Cappucino: 7.70\n"
+            + "1x Tiramisu: 11.40\n"
+            + "- - - - - - - - - -\n"
+            + "SUB-TOTAL: 38.65\n"
+            + "TAX @ 20%: 7.73\n"
+            + "TOTAL: £46.38"
+        XCTAssertEqual(receipt.generate(), expectedReceiptOutput)
     }
 
 }

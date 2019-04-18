@@ -24,11 +24,6 @@ I want to be able to generate receipts
 ```
 ```
 As a user
-So that I can close a check
-I want to be able to accept payment
-```
-```
-As a user
 So that I can charge the correct amount
 I want to be able to calculate the total
 ```
@@ -36,4 +31,11 @@ I want to be able to calculate the total
 As a user
 So that all taxes are paid
 I want to be able to calculate the tax
+```
+
+## Version 2
+```
+As a user
+So that I can close a check
+I want to be able to accept payment
 ```
