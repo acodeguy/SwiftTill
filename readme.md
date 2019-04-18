@@ -1,5 +1,21 @@
 # SwiftTill
 ## Till Tech Test
+Create a cash register for a coffee shop that accepts a JSON file as input and spits out a receipt of all the items, including tax and the total amount due.
+
+## Technologies
+- Apple Xcode 10.2
+- Swift 5
+- Cocoapods (SwiftyJSON)
+
+## Using the Code
+Clone this repo: ```git clone git@github.com:acodeguy/SwiftTill.git```
+Install Cocoapods: ```gem install cocoapods```
+Install necessary Pods: ```cd SwiftTill; pod install```
+Open the ```SwiftTill.xcworkspace``` workspace in Xcode
+
+## Testing
+Tested with XCTest
+
 
 ## User Stories
 ```
