@@ -57,6 +57,11 @@ I want to be able to accept payment
 ```
 ```
 As a user
+So that I do not overcharge customers
+I want to be able to give change when necessary
+```
+```
+As a user
 So that I can promote customer loyalty
 I would like to be able to offer a 5% discount on orders over 50
 ```
@@ -67,6 +72,9 @@ I'd like to be able to offer 10% discounts on them
 ```
 
 ## Version 3
-```
 Implement a user interface that can actually be used as a till.
+```
+As a user
+So that I can create a receipt quickly
+I want to be able to use an interface
 ```

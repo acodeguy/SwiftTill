@@ -21,6 +21,8 @@ class Receipt {
         "phone": "123456789"
     ]
     private var dateGenerated: Date = Date()
+    private var totalAmountOutstandingIncludingTax: Double = 0.0
+    private var paymentsMade: [Double]?
     
     init() {
         self.setPrices()
@@ -111,5 +113,10 @@ class Receipt {
         dateFormatter.timeStyle = .medium
         dateFormatter.locale = Locale(identifier: "en_GB")
         return dateFormatter.string(from: date)
+    }
+    
+    func acceptPayment(amount: Double) -> Double {
+        self.totalAmountOutstandingIncludingTax = self.calculateTotal(taxInclusive: true) - amount
+        return self.totalAmountOutstandingIncludingTax
     }
 }

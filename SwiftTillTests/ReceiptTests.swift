@@ -59,5 +59,12 @@ class SwiftTillTests: XCTestCase {
             + "TOTAL: £46.38"
         XCTAssertEqual(receipt.generate(), expectedReceiptOutput)
     }
+    
+    func testPaymentCanBeTakenFromTheTotalDue() {
+        receipt.addItem(itemName: "Cappucino")
+        let totalDueIncludingTax = receipt.calculateTotal(taxInclusive: true)
+        let amountOutstanding = receipt.acceptPayment(amount: totalDueIncludingTax)
+        XCTAssertEqual(amountOutstanding, 0)
+    }
 
 }
