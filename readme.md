@@ -55,3 +55,18 @@ As a user
 So that I can close a check
 I want to be able to accept payment
 ```
+```
+As a user
+So that I can promote customer loyalty
+I would like to be able to offer a 5% discount on orders over 50
+```
+```
+As a user
+So that I can reward the purchases of muffins
+I'd like to be able to offer 10% discounts on them
+```
+
+## Version 3
+```
+Implement a user interface that can actually be used as a till.
+```
